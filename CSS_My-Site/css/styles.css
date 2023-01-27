@@ -17,20 +17,20 @@ h2, h3 {
 
 .top-container {
     background-color: #FFF8EA;
-    position: relative;
+    
     padding-top: 100px;
+    position: relative;
+    top: 0;
+    bottom: 100;
 }
 
 
 .middle-container {
-    background-color: red;
-    height: 200px;
-    width: 200px;
+    
+    min-width: 100%;
 }
 .bottom-container {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+    
 }
 
 .top-cloud{
@@ -44,5 +44,30 @@ h2, h3 {
     bottom: 300px;
     left: 300px;
 
+}
+
+.personal-picture {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-attrib {
+    font-size: 10px;
+}
+
+.coffee-img {
+    height: 150px;
+    
+}
+
+.dev-image {
+    height: 150px;
+}
+
+.mountain-img {
+    max-width: 100%;
+    height: auto;
 }
 
